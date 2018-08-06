@@ -1,0 +1,23 @@
+
+// Write your custom style. Feel free to split your code to several files
+* {
+  // font-family: SailecBlackItalic;
+}
+
+@font-face {
+  font-family: SailecBlackItalic;
+  src: url('../fonts/Sailec-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: SailecMedium;
+  src: url('../fonts/Sailec-Medium.ttf');
+}
+
+
+nav * {
+  font-family: SailecMedium !important;
+  font-size: 1.1em;
+  text-transform: none !important;
+}
